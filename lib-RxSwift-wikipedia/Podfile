@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'lib-RxSwift-wikipedia' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'RxSwift',    '~> 4.0'
+  pod 'RxCocoa',    '~> 4.0'
+  pod 'Alamofire', '~> 5.0.0-beta.3'
+  
+  target 'lib-RxSwift-wikipediaTests' do
+    inherit! :search_paths
+    pod 'RxBlocking', '~> 4.0'
+    pod 'RxTest',     '~> 4.0'
+  end
+
+  target 'lib-RxSwift-wikipediaUITests' do
+    inherit! :search_paths
+    pod 'RxBlocking', '~> 4.0'
+    pod 'RxTest',     '~> 4.0'
+  end
+
+end
