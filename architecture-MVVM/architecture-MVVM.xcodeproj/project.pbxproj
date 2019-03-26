@@ -14,6 +14,8 @@
 		302677752249C2D20030249A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302677732249C2D20030249A /* LaunchScreen.storyboard */; };
 		302677802249C2D30030249A /* architecture_MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3026777F2249C2D30030249A /* architecture_MVVMTests.swift */; };
 		3026778B2249C2D30030249A /* architecture_MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3026778A2249C2D30030249A /* architecture_MVVMUITests.swift */; };
+		302677992249C6950030249A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302677982249C6950030249A /* ViewModel.swift */; };
+		3026779D2249C89F0030249A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3026779C2249C89F0030249A /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		302677862249C2D30030249A /* architecture-MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "architecture-MVVMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3026778A2249C2D30030249A /* architecture_MVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = architecture_MVVMUITests.swift; sourceTree = "<group>"; };
 		3026778C2249C2D30030249A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		302677982249C6950030249A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		3026779C2249C89F0030249A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				302677712249C2D20030249A /* Assets.xcassets */,
 				302677732249C2D20030249A /* LaunchScreen.storyboard */,
 				302677762249C2D20030249A /* Info.plist */,
+				302677982249C6950030249A /* ViewModel.swift */,
+				3026779C2249C89F0030249A /* Model.swift */,
 			);
 			path = "architecture-MVVM";
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3026779D2249C89F0030249A /* Model.swift in Sources */,
 				3026776D2249C2D00030249A /* ViewController.swift in Sources */,
+				302677992249C6950030249A /* ViewModel.swift in Sources */,
 				3026776B2249C2D00030249A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
